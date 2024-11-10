@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-
-
 export const ButtonContainer = styled.button`
     width: 100%;
     height: 42px;
@@ -14,4 +12,4 @@ export const ButtonContainer = styled.button`
         opacity: 0.6;
         cursor:pointer;
     }
-`
+` as React.FC<React.ButtonHTMLAttributes<HTMLButtonElement>>
